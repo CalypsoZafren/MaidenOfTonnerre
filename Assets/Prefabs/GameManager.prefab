@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1585283570706718752}
   - component: {fileID: 1968786274403424471}
   - component: {fileID: 7644139387070570631}
+  - component: {fileID: 7589124316971544519}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -94,3 +95,16 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   coloniesColor: {r: 0, g: 0, b: 0, a: 1}
+  journalUI: {fileID: 0}
+--- !u!114 &7589124316971544519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115899304509221697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194ab75da22e6f44dac0682ba2dfd479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneManager
