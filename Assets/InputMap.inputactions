@@ -829,7 +829,7 @@
                 {
                     "name": "",
                     "id": "26aa35a4-9d11-4417-ae2b-254b6dcd2369",
-                    "path": "<Gamepad>/leftShoulder",
+                    "path": "<Gamepad>/select",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
