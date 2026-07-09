@@ -269,6 +269,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9221412354593549991, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: numOfInformationPoints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5583995102002722143, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.29721
@@ -349,6 +353,10 @@ PrefabInstance:
       propertyPath: objectiveWrapper
       value: 
       objectReference: {fileID: 72566970}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: InformationNumber
+      value: 
+      objectReference: {fileID: 917741845}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: charactersWrapper
       value: 
@@ -557,6 +565,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BootupScene
   sceneToLoad: Testing
+--- !u!114 &917741845 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2581683631808673314, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!114 &959263702 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7332792647923213215, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}

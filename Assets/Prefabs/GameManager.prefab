@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1968786274403424471}
   - component: {fileID: 7644139387070570631}
   - component: {fileID: 7589124316971544519}
+  - component: {fileID: -9221412354593549991}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -71,6 +72,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dd359642c5a4fd4191fd49a331640e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  otherCharacterInScenes: {fileID: 0}
+  reputationWrapper: {fileID: 0}
+  objectiveWrapper: {fileID: 0}
+  informationWrapper: {fileID: 0}
+  journalPromptWrapper: {fileID: 0}
+  JournalWrapper: {fileID: 0}
+  DiologueWrapper: {fileID: 0}
+  charactersWrapper: {fileID: 0}
+  backgroundImageWrapper: {fileID: 0}
+  fightAndStealTutorialWrapper: {fileID: 0}
   franceBars:
   - {fileID: 0}
   - {fileID: 0}
@@ -95,7 +106,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   coloniesColor: {r: 0, g: 0, b: 0, a: 1}
-  journalUI: {fileID: 0}
+  contextMenu: {fileID: 0}
+  objectName: {fileID: 0}
+  observePanel: {fileID: 0}
+  talkPanel: {fileID: 0}
+  stealPanel: {fileID: 0}
+  duelPanel: {fileID: 0}
 --- !u!114 &7589124316971544519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,3 +124,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194ab75da22e6f44dac0682ba2dfd479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneManager
+--- !u!114 &-9221412354593549991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115899304509221697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7f503ff5ac5384fa28487fd4870226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InformationManager
