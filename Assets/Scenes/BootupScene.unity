@@ -138,6 +138,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 80974735610513038, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315906317606462058, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315906317606462058, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2047781663}
+    - target: {fileID: 1315906317606462058, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchJournalTab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315906317606462058, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315906317606462058, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Observations
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315906317606462058, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2047781663}
+    - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchJournalTab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Information
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2569051428604363093, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -220,6 +272,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2604836366312447878, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817953604006751623, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817953604006751623, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2047781663}
+    - target: {fileID: 3817953604006751623, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchJournalTab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817953604006751623, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817953604006751623, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Upgrades
+      objectReference: {fileID: 0}
+    - target: {fileID: 3817953604006751623, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372230460426155770, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691137294594875484, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8911582623182161612, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
@@ -342,6 +426,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1181957619}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: upgradePanel
+      value: 
+      objectReference: {fileID: 1949959798}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: upgradeHeader
+      value: 
+      objectReference: {fileID: 1522433389}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: JournalWrapper
       value: 
       objectReference: {fileID: 72566969}
@@ -349,6 +441,10 @@ PrefabInstance:
       propertyPath: DiologueWrapper
       value: 
       objectReference: {fileID: 72566968}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: informationPanel
+      value: 
+      objectReference: {fileID: 1340847699}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: objectiveWrapper
       value: 
@@ -362,6 +458,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1464852189}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: informationHeader
+      value: 
+      objectReference: {fileID: 1623648101}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: observationsPanel
+      value: 
+      objectReference: {fileID: 636042173}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: reputationWrapper
       value: 
       objectReference: {fileID: 72566973}
@@ -369,6 +473,10 @@ PrefabInstance:
       propertyPath: informationWrapper
       value: 
       objectReference: {fileID: 72566971}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: observationsHeader
+      value: 
+      objectReference: {fileID: 1260566948}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: journalPromptWrapper
       value: 
@@ -509,6 +617,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &636042173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6430130522153747529, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &708487597 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2631678943054179293, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
@@ -564,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db491acebe859ba4d846751092585be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BootupScene
-  sceneToLoad: Testing
+  sceneToLoad: St James
 --- !u!114 &917741845 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2581683631808673314, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
@@ -761,6 +874,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1260566948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3201316769238236947, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &1340847699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8533405768923285194, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1462320774 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5113977919675073556, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
@@ -788,9 +917,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1522433389 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6787247874682853036, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!114 &1607660445 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8930173889066301930, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1623648101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706292770746045612, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
   m_PrefabInstance: {fileID: 72566967}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -842,6 +993,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4511976689272108956, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
   m_PrefabInstance: {fileID: 72566967}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1949959798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3860457151291542610, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2047781663 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+  m_PrefabInstance: {fileID: 113649619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd359642c5a4fd4191fd49a331640e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
