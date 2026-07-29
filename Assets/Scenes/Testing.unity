@@ -1652,9 +1652,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1227679797115375497, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: reference.lowId
+      value: 1044
+      objectReference: {fileID: 0}
+    - target: {fileID: -1227679797115375497, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: reference.highId
+      value: 16777216
+      objectReference: {fileID: 0}
     - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: npcName
       value: Jane Whitemore
+      objectReference: {fileID: 0}
+    - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: articyReference
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: characterSprite
@@ -1675,6 +1687,22 @@ PrefabInstance:
     - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: 'actions.Array.data[2]'
       value: Steal
+      objectReference: {fileID: 0}
+    - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: articyReference.lowId
+      value: 1044
+      objectReference: {fileID: 0}
+    - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: articyReference.highId
+      value: 16777216
+      objectReference: {fileID: 0}
+    - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: conversationStart.lowId
+      value: 1044
+      objectReference: {fileID: 0}
+    - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: conversationStart.highId
+      value: 16777216
       objectReference: {fileID: 0}
     - target: {fileID: 2477063702929207771, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: m_LocalScale.x
@@ -1740,7 +1768,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.94
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1227679797115375497, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2960,6 +2989,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1227679797115375497, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: reference.lowId
+      value: 1849
+      objectReference: {fileID: 0}
+    - target: {fileID: -1227679797115375497, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: reference.highId
+      value: 16777216
+      objectReference: {fileID: 0}
     - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: npcName
       value: Earl of Glastonbury

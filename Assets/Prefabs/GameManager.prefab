@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 7644139387070570631}
   - component: {fileID: 7589124316971544519}
   - component: {fileID: -9221412354593549991}
+  - component: {fileID: 7744260821716561600}
+  - component: {fileID: 3242809452829549241}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -112,6 +114,16 @@ MonoBehaviour:
   talkPanel: {fileID: 0}
   stealPanel: {fileID: 0}
   duelPanel: {fileID: 0}
+  InformationNumber: {fileID: 0}
+  informationHeader: {fileID: 0}
+  informationPanel: {fileID: 0}
+  upgradeHeader: {fileID: 0}
+  upgradePanel: {fileID: 0}
+  observationsHeader: {fileID: 0}
+  observationsPanel: {fileID: 0}
+  fencingPromptSpawnZone: {fileID: 0}
+  DialogueSpeakerBox: {fileID: 0}
+  DialogueText: {fileID: 0}
 --- !u!114 &7589124316971544519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,3 +148,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7f503ff5ac5384fa28487fd4870226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InformationManager
+  numOfInformationPoints: 0
+--- !u!114 &7744260821716561600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115899304509221697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a3c74c295a27f4a9888b53d1a3d3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+--- !u!114 &3242809452829549241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115899304509221697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 149237616, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ArticyRuntime.dll::Articy.Unity.ArticyFlowPlayer
+  useDefaultGlobalVariables: 1
+  globalVariables: {fileID: 0}
+  overwriteMethodProvider: 0
+  overwrittenMethodProvider: {fileID: 0}
+  startOn:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
+  pauseOn: 4
+  ignoreInvalidBranches: 1
+  continuouslyRecalculateBranches: 0
+  continouslyRecalculateInterval: 1

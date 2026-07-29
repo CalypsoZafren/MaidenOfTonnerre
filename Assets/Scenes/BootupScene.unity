@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &9544653 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2888982016825826401, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!114 &43867927 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9043171737146577145, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
@@ -422,6 +433,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1181957618}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: DialogueText
+      value: 
+      objectReference: {fileID: 9544653}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: observePanel
       value: 
       objectReference: {fileID: 1181957619}
@@ -469,6 +484,10 @@ PrefabInstance:
       propertyPath: reputationWrapper
       value: 
       objectReference: {fileID: 72566973}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: DialogueSpeakerBox
+      value: 
+      objectReference: {fileID: 717907108}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: informationWrapper
       value: 
@@ -633,6 +652,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &717907108 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2305057856286460201, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &821251539
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db491acebe859ba4d846751092585be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BootupScene
-  sceneToLoad: St James
+  sceneToLoad: Testing
 --- !u!114 &917741845 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2581683631808673314, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
