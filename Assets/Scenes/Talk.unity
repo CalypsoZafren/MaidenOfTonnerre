@@ -594,6 +594,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a3c74c295a27f4a9888b53d1a3d3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  flowPlayer: {fileID: 0}
+  startingReference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
+  NPCTextcolor: {r: 0, g: 0, b: 0, a: 1}
+  DeonTextColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1847705716
 MonoBehaviour:
   m_ObjectHideFlags: 0

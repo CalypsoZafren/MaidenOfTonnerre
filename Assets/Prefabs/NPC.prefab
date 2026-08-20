@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7862209923977528547}
   - component: {fileID: 315898256880049145}
   - component: {fileID: 295424448654226057}
-  - component: {fileID: -1227679797115375497}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -131,24 +130,12 @@ MonoBehaviour:
   npcName: The Lady of Sorrow
   contextMenuAnchor: {fileID: 8889613555181754595}
   characterSprite: {fileID: 0}
-  actions: []
---- !u!114 &-1227679797115375497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5881108003496819100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ArticyRuntime.dll::Articy.Unity.ArticyReference
-  reference:
+  articyReference:
     instanceId: 0
     referencingMode: 0
     lowId: 0
     highId: 0
+  actions: []
 --- !u!1 &7590085870058011203
 GameObject:
   m_ObjectHideFlags: 0

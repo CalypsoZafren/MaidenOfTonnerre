@@ -662,6 +662,101 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Dialogue",
+            "id": "735f1876-b14f-4075-afb6-93b47b44137f",
+            "actions": [
+                {
+                    "name": "Confirm",
+                    "type": "Button",
+                    "id": "46ca29f0-dfea-4589-88ae-b717a0247f8b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8af8c2ef-a5c0-44f9-915c-3c9413ba5068",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e14ff18-60cb-4a4a-ba44-8dcb74b75934",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Fencing",
+            "id": "b8321a7b-cc26-40fe-bf8a-5679d6fabff5",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "fdfd3cfd-c4dd-4aac-aa8f-8d9c6a82d053",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "85cb4933-ab73-4296-b8dd-98f8945b7e43",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Stealing",
+            "id": "18898013-3ff0-43e3-8aef-30ea19fc3bea",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "8976dd3d-10e6-46c7-abb5-fbd76aee3610",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f97095fd-b6d7-4bc4-b9b7-fe0eb366b525",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
