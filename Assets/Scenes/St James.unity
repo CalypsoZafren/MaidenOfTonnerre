@@ -7007,7 +7007,7 @@ PrefabInstance:
     - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: characterSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5d3f0d4acad51ad4f904e468f2f3bc92, type: 3}
+      objectReference: {fileID: 21300000, guid: b41292a1dea83d749b17f87cd621c69d, type: 3}
     - target: {fileID: 295424448654226057, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: actions.Array.size
       value: 4
@@ -7109,9 +7109,21 @@ PrefabInstance:
       value: Thomas Paine
       objectReference: {fileID: 0}
     - target: {fileID: 7862209923977528547, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: m_Size.x
+      value: 4.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862209923977528547, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: m_Size.y
+      value: 5.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862209923977528547, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5d3f0d4acad51ad4f904e468f2f3bc92, type: 3}
+      objectReference: {fileID: 21300000, guid: b41292a1dea83d749b17f87cd621c69d, type: 3}
+    - target: {fileID: 7862209923977528547, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8889613555181754595, guid: b06335841e81e7948b8682edc14b9b48, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.495

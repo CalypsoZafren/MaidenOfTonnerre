@@ -14,8 +14,7 @@ GameObject:
   - component: {fileID: 7644139387070570631}
   - component: {fileID: 7589124316971544519}
   - component: {fileID: -9221412354593549991}
-  - component: {fileID: 7744260821716561600}
-  - component: {fileID: 3242809452829549241}
+  - component: {fileID: 6169070680791350162}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -122,8 +121,9 @@ MonoBehaviour:
   observationsHeader: {fileID: 0}
   observationsPanel: {fileID: 0}
   fencingPromptSpawnZone: {fileID: 0}
-  DialogueSpeakerBox: {fileID: 0}
-  DialogueText: {fileID: 0}
+  textBox: {fileID: 0}
+  dialogueChunkPrefab: {fileID: 0}
+  dialogueChoiceChunk: {fileID: 0}
 --- !u!114 &7589124316971544519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +136,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194ab75da22e6f44dac0682ba2dfd479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneManager
+  sceneChangeArticyRef:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
 --- !u!114 &-9221412354593549991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InformationManager
   numOfInformationPoints: 0
---- !u!114 &7744260821716561600
+--- !u!114 &6169070680791350162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,31 +163,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6115899304509221697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a3c74c295a27f4a9888b53d1a3d3da, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f55949a92489e14a90122b9c1387d25, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
---- !u!114 &3242809452829549241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6115899304509221697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 149237616, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ArticyRuntime.dll::Articy.Unity.ArticyFlowPlayer
-  useDefaultGlobalVariables: 1
-  globalVariables: {fileID: 0}
-  overwriteMethodProvider: 0
-  overwrittenMethodProvider: {fileID: 0}
-  startOn:
-    instanceId: 0
-    referencingMode: 0
-    lowId: 0
-    highId: 0
-  pauseOn: 4
-  ignoreInvalidBranches: 1
-  continuouslyRecalculateBranches: 0
-  continouslyRecalculateInterval: 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueBridge
