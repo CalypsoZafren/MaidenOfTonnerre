@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 7626628626384453985}
   - component: {fileID: 263696988998875308}
   - component: {fileID: 2515163981155872942}
+  - component: {fileID: 3032380269710759409}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -223,3 +224,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d47431ae6e01d488e6488f375710b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractionDetector
+--- !u!114 &3032380269710759409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9211116457752600515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9742bd890b6ed2408f39220e421649f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerManager

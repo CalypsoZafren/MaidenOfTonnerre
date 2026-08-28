@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7589124316971544519}
   - component: {fileID: -9221412354593549991}
   - component: {fileID: 6169070680791350162}
+  - component: {fileID: -5157175345545062785}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -82,7 +83,8 @@ MonoBehaviour:
   DiologueWrapper: {fileID: 0}
   charactersWrapper: {fileID: 0}
   backgroundImageWrapper: {fileID: 0}
-  fightAndStealTutorialWrapper: {fileID: 0}
+  fencingTutorialWrapper: {fileID: 0}
+  stealingTutorialWrapper: {fileID: 0}
   franceBars:
   - {fileID: 0}
   - {fileID: 0}
@@ -124,6 +126,8 @@ MonoBehaviour:
   textBox: {fileID: 0}
   dialogueChunkPrefab: {fileID: 0}
   dialogueChoiceChunk: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  blackScreen: {fileID: 0}
 --- !u!114 &7589124316971544519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,11 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194ab75da22e6f44dac0682ba2dfd479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneManager
-  sceneChangeArticyRef:
-    instanceId: 0
-    referencingMode: 0
-    lowId: 0
-    highId: 0
 --- !u!114 &-9221412354593549991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,3 +165,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f55949a92489e14a90122b9c1387d25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueBridge
+  sceneChangeArticyRef:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
+--- !u!114 &-5157175345545062785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115899304509221697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 276dd6669e682ee45b55e505c7295aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveManager
