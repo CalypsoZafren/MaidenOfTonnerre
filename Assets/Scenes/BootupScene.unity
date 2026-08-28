@@ -482,6 +482,54 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1585283570706718752, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7589124316971544519, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestReputationDecrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ButtonRequestSceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ReputationManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SceneChangeManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: France
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: St James
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435777318728712717, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1439301009257098966, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
@@ -1030,6 +1078,54 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1585283570706718752, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7589124316971544519, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestReputationIncrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ButtonRequestSceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ReputationManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SceneChangeManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: France
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: St James
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879552399152464009, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3942055096412629421, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1542,6 +1638,54 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: -9221412354593549991, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7589124316971544519, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeNumOfInfoPoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ButtonRequestSceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InformationManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SceneChangeManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: St James
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935407138603202857, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6947911580707483496, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1729,6 +1873,54 @@ PrefabInstance:
     - target: {fileID: 7989720819778868838, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1585283570706718752, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7589124316971544519, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RequestReputationDecrease
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ButtonRequestSceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ReputationManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SceneChangeManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: France
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: St James
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052065439206598829, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8122482785543439020, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2154,9 +2346,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1636697858}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: fencingTutorialWrapper
+      value: 
+      objectReference: {fileID: 1915163589}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: otherCharacterInScenes
       value: 
       objectReference: {fileID: 524691317}
+    - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
+      propertyPath: stealingTutorialWrapper
+      value: 
+      objectReference: {fileID: 1135270014}
     - target: {fileID: 7644139387070570631, guid: c6090ff933847d842a19ba3167514e20, type: 3}
       propertyPath: 'franceBars.Array.data[0]'
       value: 
@@ -2484,6 +2684,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &1135270014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4584532068309365023, guid: 00542057b1fb1bb4fb55535a8631f0ed, type: 3}
+  m_PrefabInstance: {fileID: 72566967}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1162380177
 GameObject:
   m_ObjectHideFlags: 0
